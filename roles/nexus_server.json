@@ -1,0 +1,22 @@
+{
+  "name": "nexus_server",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+    "nexus":{
+      "app_server_proxy":{
+        "use_self_signed": true
+      }
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[nexus_wrapper::default]"
+  ],
+  "env_run_lists": {
+
+  }
+}
