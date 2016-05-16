@@ -6,5 +6,4 @@ description      'Installs/Configures nexus_wrapper'
 long_description 'Installs/Configures nexus_wrapper'
 version          '0.1.0'
 
-
 depends 'nexus', '~> 3.3.0'

@@ -18,3 +18,8 @@
 #
 
 include_recipe 'nexus::default'
+
+nexus_proxy_repository 'rubygems' do
+  url 'http:/rubygems.org'
+  action :create
+end
