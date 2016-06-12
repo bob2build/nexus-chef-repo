@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'knife-solo', '~> 0.5.1'
 gem 'knife-solo_data_bag', '~> 1.1'

@@ -1,8 +1,16 @@
 # Nexus repository
 
-A sample project based on chef provisioning to install Nexus artifact repository.
+A sample chef repo to install nexus.
 
+## Usage
 
+```
+gem install bundler
+bundle install
+vagrant up
+```
 
 ## TODO
-* Add role for Nexus and install nexus
+
+* Add nexus_server role
+* Add support for chef provisioning

@@ -17,9 +17,18 @@
 # limitations under the License.
 #
 
-include_recipe 'nexus::default'
 
-nexus_proxy_repository 'rubygems' do
-  url 'http:/rubygems.org'
+
+include_recipe "nexus::cli"
+include_recipe "nexus::app"
+
+nexus_proxy_repository 'gems' do
+  url 'https://rubygems.org'
+  repo_provider 'rubygems-proxy'
+  action :create
+end
+
+nexus_hosted_repository 'java' do
+  repo_provider 'maven2'
   action :create
 end

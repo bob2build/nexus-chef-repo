@@ -1,10 +1,10 @@
 # nexus_wrapper-cookbook
 
-TODO: Enter the cookbook description here.
+Wrapper cookbook to install nexus
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+centos
 
 ## Attributes
 
@@ -14,12 +14,6 @@ TODO: List your supported platforms.
     <th>Type</th>
     <th>Description</th>
     <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['nexus_wrapper']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
   </tr>
 </table>
 
@@ -39,4 +33,4 @@ Include `nexus_wrapper` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Bob (<bob2build.2020@gmail.com>)
